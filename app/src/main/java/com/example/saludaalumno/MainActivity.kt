@@ -1,6 +1,8 @@
 package com.example.saludaalumno
 
 import android.os.Bundle
+import android.view.View
+import android.widget.Button
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
@@ -16,28 +18,10 @@ class MainActivity : ComponentActivity() {
 	override fun onCreate(savedInstanceState: Bundle?) {
 		super.onCreate(savedInstanceState)
 		setContent {
-			SaludaAlumnoTheme {
-				// A surface container using the 'background' color from the theme
-				Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
-					Greeting("Android")
-				}
+			setContentView(R.layout.actividad_principal)
+			fun pulsaBoton(view: View) {
+				val button: Button =findViewById(R.id.boton)
 			}
 		}
-	}
-}
-
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-	Text(
-		text = "Hello $name!",
-		modifier = modifier
-	)
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-	SaludaAlumnoTheme {
-		Greeting("Android")
 	}
 }

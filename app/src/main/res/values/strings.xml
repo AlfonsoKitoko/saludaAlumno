@@ -1,6 +1,7 @@
 <resources>
 	<string name="app_name">saludaAlumno</string>
 	<string name="introNombre">¿Cuál es tu nombre?</string>
-	<string name="nombre">...</string>
+	<string name="nombre">Introduce tu nombre</string>
 	<string name="saludo">Hola </string>
+	<string name="boton">Salúdame!</string>
 </resources>
