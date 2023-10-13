@@ -1,8 +1,10 @@
 <resources>
 	<string name="app_name">saludaAlumno</string>
-	<string name="introNombre">¿Cuál es tu nombre?</string>
+	<string name="introNombre">¿Cómo te llamas?</string>
 	<string name="nombre">Introduce tu nombre...</string>
 	<string name="saludo">Hola </string>
 	<string name="boton">Salúdame!</string>
 	<string name="autor">Alfonso Martínez Kitoko</string>
+	<string name="title_activity_fullscreen">FullscreenActivity</string>
+	<string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>
