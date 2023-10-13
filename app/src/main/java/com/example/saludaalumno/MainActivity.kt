@@ -33,7 +33,7 @@ class MainActivity : ComponentActivity() {
 	private fun saludar(){
 		val nombre=introNombre.text.toString()
 		val saludos=getString(R.string.saludo)
-		val mensaje="$saludos $introNombre"
+		val mensaje="$saludos $nombre"
 		saludo.text=mensaje
 	}
 }
