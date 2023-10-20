@@ -13,11 +13,11 @@
 		android:theme="@style/Theme.SaludaAlumno"
 		tools:targetApi="31">
 		<activity
-			android:name=".ui.theme.FullscreenActivity"
+			android:name=".ui.theme.Activity2"
 			android:configChanges="orientation|keyboardHidden|screenSize"
 			android:exported="false"
 			android:label="@string/title_activity_fullscreen"
-			android:theme="@style/Theme.SaludaAlumno.Fullscreen" />
+			android:theme="@style/Theme.SaludaAlumno" />
 		<activity
 			android:name=".MainActivity"
 			android:exported="true"
